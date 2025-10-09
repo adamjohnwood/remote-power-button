@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  docker-wol-switch:
+    container_name: remote-power-button
+    network_mode: "host"
+    environment:
+      - TARGET_MAC=AA:BB:CC:DD:EE:FF
+      - TARGET_IP=192.168.1.1
+      - MAX_TRIES=12
+      - PING_INTERVAL=60
+    restart: "no"
+    
