@@ -2,8 +2,8 @@
 
 A Docker container that works as a Wake-on-LAN (WOL) button for your PC, monitoring the target machine and automatically stopping when it turns off.
 
-
 ## 🚀 Features
+
 - Sends a Wake-on-LAN packet to a specified computer in your network.
 
 - Continuously pings the machine to check if it’s online.
@@ -13,7 +13,6 @@ A Docker container that works as a Wake-on-LAN (WOL) button for your PC, monitor
 - Acts like a “Docker button” to turn your PC on or off.
 
 - Optimized for use with CasaOS or similar platforms.
-
 
 ## Environment Variables
 
