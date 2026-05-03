@@ -2,7 +2,7 @@
 
 A Docker container that works as a Wake-on-LAN (WOL) button for your PC, monitoring the target machine and automatically stopping when it turns off.
 
-## 🚀 Features
+## Features
 
 - Sends a Wake-on-LAN packet to a specified computer in your network.
 
